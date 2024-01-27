@@ -26,7 +26,7 @@ const About = () => {
         advanced statistics dashboard.
       </p>
       <div className='md:mx-32'>
-        <ul className='flex gap-4'>
+        <ul className='flex gap-4 flex-col md:flex-row m-10'>
           {
             stats.map((tag, index) => (
               <li className={`bg-white rounded-md text-left p-6`} key={index}>

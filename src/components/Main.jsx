@@ -5,7 +5,7 @@ import sideImg from '../assets/images/illustration-working.svg';
 const Main = () => {
   return (
     <>
-    <div className='pt-14 md:pb-20 grid grid-cols-1 md:grid-cols-2 md:place-items-center md:ml-32 md:gap-10'>
+    <div className='py-1 md:pb-20 grid grid-cols-1 md:grid-cols-2 md:place-items-center md:ml-32 md:gap-10'>
       <article className='text-center md:text-start md:pr-40'>
         <h1 className='text-slate-800 mb-5 text-6xl font-bold '>
           More than just shorter links

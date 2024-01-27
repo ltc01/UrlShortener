@@ -8,12 +8,12 @@ const Bottom = () => {
     <div className='relative'>
       <div className='bg-slate-900'>
         <picture>
-          <source media="(min-width:768px )" srcset={boostBg} />
-          <img src={boostBgmob} alt="" />
+          <source media="(min-width:768px )" srcSet={boostBg} />
+          <img src={boostBgmob} alt="boost" className='w-full h-48' />
         </picture>
       </div>
-      <div className='text-center absolute top-20 w-full'>
-        <h1 className="text-5xl font-bold mb-7 text-white">
+      <div className='text-center absolute top-10 w-full'>
+        <h1 className="md:text-5xl text-3xl font-bold mb-7 text-white">
           Boost your links today
         </h1>
         <button className='bg-cyan-400 text-white font-semibold px-10 py-2 rounded-full'>

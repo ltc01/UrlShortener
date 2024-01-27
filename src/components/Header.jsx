@@ -9,7 +9,6 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      
         <header className="flex items-center mx-5 py-8 md:mx-32 justify-between">
           <div className='flex items-center'>
             <img src={logo} alt="log image" />
