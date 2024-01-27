@@ -4,6 +4,7 @@ import Main from './components/Main'
 import About from './components/About'
 import Bottom from './components/Bottom'
 import Footer from './components/Footer'
+import Shortener from './components/Shortener'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <Shortener />
       <About />
       <Bottom />
       <Footer />
