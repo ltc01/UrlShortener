@@ -36,13 +36,13 @@ const Header = () => {
               <div className="md:hidden absolute left-6 right-6 top-20 rounded-xl bg-slate-900 text-slate-100 text-center py-8 font-semibold">
                 <nav>
                   <ul className="flex flex-col gap-5">
-                    <li className='hover:text-cyan-400 '>
+                    <li className='hover:text-purple-600 '>
                       <button>Features</button>
                     </li>
-                    <li className='hover:text-cyan-400 '>
+                    <li className='hover:text-purple-600 '>
                       <button>Pricing</button>
                     </li>
-                    <li className='hover:text-cyan-400 '>
+                    <li className='hover:text-purple-600 '>
                       <button>Resources</button>
                     </li>
                   </ul>
@@ -50,10 +50,10 @@ const Header = () => {
                 <hr className="bg-gray-600 border-0 h-px mt-5  mx-20" />
                 <ul className="flex flex-col items-center justify-center">
                   <li className="my-5">
-                    <button className='hover:text-cyan-400 font-semibold'>Login</button>
+                    <button className='hover:text-purple-600 font-semibold'>Login</button>
                   </li>
                   <li>
-                    <button className='py-1 px-5 rounded-full text-white hover:bg-cyan-800 bg-cyan-400 font-semibold'>Signup</button>
+                    <button className='py-1 px-5 rounded-full text-white hover:bg-purple-950 bg-purple-600 font-semibold'>Signup</button>
                   </li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@ const Header = () => {
           <div className='md:block hidden'>
             <div className='flex gap-5'>
               <button className='hover:text-black text-slate-400 font-semibold'>Login</button>
-              <button className='py-1 px-5 rounded-full text-white hover:bg-cyan-800 bg-cyan-400 font-semibold'>Signup</button>
+              <button className='py-2 px-5 rounded-full text-white hover:bg-purple-950 bg-purple-600 font-semibold'>Signup</button>
             </div>
           </div>
 

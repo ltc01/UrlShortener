@@ -14,7 +14,7 @@ const Main = () => {
         Build your brand’s recognition and get detailed insights on how
               your links are performing.
         </p>
-        <button className='bg-cyan-400 text-white font-semibold px-10 py-2 rounded-full'>
+        <button className='bg-purple-800 hover:bg-purple-400 text-white font-semibold px-10 py-2 rounded-full'>
           Get Started
         </button>
       </article>
